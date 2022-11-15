@@ -1,6 +1,7 @@
 # CubeMLP
 The implementation of CubeMLP
 
+The codes require the PyTorch and numpy installation.
 
 To run the codes:
 ```
