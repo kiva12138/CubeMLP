@@ -18,8 +18,7 @@ python Train.py --dataset mosi_SDK --batch_size 128 --features_compose_t mean --
 ```
 The final results may be slightly fluctuating, but the overall results should correspond to the metrics in the paper.(Sometimes, the results are even better than the paper's.)
 
-The processed MOSI and MOSEI dataset has been uploaded to Baidu Disk: https://pan.baidu.com/s/1CRbE4rPUhEfmCysuY4_q3A Code: rif6
+The processed MOSI and MOSEI dataset has been uploaded to Google Drive: https://drive.google.com/drive/folders/1MNp1qycJLfY87xUDouNU9gm2O5BsYRFE and Baidu Disk: https://pan.baidu.com/s/1CRbE4rPUhEfmCysuY4_q3A (Code: rif6).
 
-For the MOSEI dataset, we cannot directly upload it to Baidu Disk for the file-size limitation.
 If you have any questions, just contact me: sunhaoxx@zju.edu.cn or create an issue in this Github repository.
 
