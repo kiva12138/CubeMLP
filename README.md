@@ -1,5 +1,14 @@
 # CubeMLP
-The implementation of CubeMLP
+The implementation of CubeMLP: A MLP-based Model for Multimodal Sentiment Analysis and Depression Estimation
+
+The CubeMLP is a pure MLP structure for multimodal processing, which is simple yet effective.
+Specifically, CubeMLP consists of three independent MLP units, each of which has two affine transformations.
+CubeMLP accepts all relevant modality features as input and mixes them across three axes (sequential axis, channel axis, and modality axis). 
+After extracting the characteristics using CubeMLP, the mixed multimodal features are flattened for task predictions.
+The overview of CubeMLP is shown as:
+![CubeMLP Overview](./figure/overall.png)
+And each MLP unit is composed of two separate fully-connected layer with activations:
+![CubeMLP Detail](./figure/detail.png)
 
 The codes require the PyTorch and numpy installation.
 
