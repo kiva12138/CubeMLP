@@ -6,9 +6,9 @@ Specifically, CubeMLP consists of three independent MLP units, each of which has
 CubeMLP accepts all relevant modality features as input and mixes them across three axes (sequential axis, channel axis, and modality axis). 
 After extracting the characteristics using CubeMLP, the mixed multimodal features are flattened for task predictions.
 The overview of CubeMLP is shown as:
-![CubeMLP Overview](./figure/overall.png)
+![CubeMLP Overview](./Figures/overall.png)
 And each MLP unit is composed of two separate fully-connected layer with activations:
-![CubeMLP Detail](./figure/detail.png)
+![CubeMLP Detail](./Figures/detail.png)
 
 The codes require the PyTorch and numpy installation.
 
