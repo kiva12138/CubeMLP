@@ -13,7 +13,7 @@ from DataLoaderLocal import mosi_r2c_7, pom_r2c_7, r2c_2, r2c_7
 from DataLoaderUniversal import get_data_loader
 from Model import Model
 from Parameters import parse_args
-from Utils import SAM, FocalLoss, SIMSE, get_mask_from_sequence, rmse, set_logger, topk_, calc_metrics, calc_metrics_pom, to_gpu
+from Utils import SAM, SIMSE, get_mask_from_sequence, rmse, set_logger, topk_, calc_metrics, calc_metrics_pom, to_gpu
 
 from transformers import BertTokenizer
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
